@@ -1,0 +1,69 @@
+Some parts of the source code (fileURL(), load() and store() methods of ArticleStore, and Models/AVFoundation+correct.swift) were borrowed from Apple's Scrumdinger tutorial that can be found at https://developer.apple.com/tutorials/app-dev-training/getting-started-with-scrumdinger. Modifications were made. The license can be found below:
+        
+ Copyright © 2021 Apple Inc.
+
+ Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+ The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+
+
+
+The charts presented when entering a password on the "Test a Password" View used modified code from the Swift Charts WWDC22 source code available at https://developer.apple.com/documentation/charts/visualizing_your_app_s_data. The license can be found below:
+
+Copyright © 2022 Apple Inc.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+
+
+
+
+PasswordML/Resources/correct.mp3, the sound played when a correct answer is picked
+Creative Commons Zero, no rights reserved.
+Sound by Eponn
+https://freesound.org/people/Eponn/sounds/619835/
+
+
+
+
+PasswordML/Resources/wrong.wav, the sound played when an incorrect answer is picked
+Sound created by Bertrof, Creative Commons CC BY 3.0 (https://creativecommons.org/licenses/by/3.0/legalcode)
+https://freesound.org/people/Bertrof/sounds/131657/
+
+
+
+
+The PasswordML machine learning model was trained on multiple passwords. Some of the common passwords were obtained from one of OWASP SecLists' common password lists, 10-million-password-list-top-10000.txt, MIT licensed.
+The license can be found below or at https://github.com/danielmiessler/SecLists/blob/7fa58a2a2601528c0987aff228ebae780c62aea8/LICENSE.
+
+MIT License
+
+Copyright (c) 2018 Daniel Miessler
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+The other resources, including the less common passwords used for PasswordML model and the app's logo, were made by the author.
